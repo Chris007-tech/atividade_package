@@ -11,13 +11,14 @@ class ExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark(),
-      home: const Scaffold(
-        body: SmartInfoWidget(
-          weather: "23°C",
-          battery: 82,
-          steps: 3421,
-          heartRate: 76,
+      home: Scaffold(
+        backgroundColor: Colors.black,
+        body: Center(
+          child: SizedBox(
+            width: 200,
+            height: 200,
+            child: SmartInfoControllerWidget(),
+          ),
         ),
       ),
     );

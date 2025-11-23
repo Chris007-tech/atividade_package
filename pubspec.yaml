@@ -10,6 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  battery_plus: ^4.0.6
+  pedometer: ^4.1.1
+  health: ^13.2.1
+  http: ^1.6.0
 
 dev_dependencies:
   flutter_test:
